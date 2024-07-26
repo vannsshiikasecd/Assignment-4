@@ -1,0 +1,41 @@
+/* Custom Styles */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.card {
+    border: solid 2px black;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    border-top: 1px solid #ffffff;
+}
+
+/* Add responsive behavior for smaller screens */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
